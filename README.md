@@ -9,7 +9,7 @@
 Включает скрипт для предсказания (script.py), файл меток (label.txt), и архив с моделью и тестовыми изображениями для демо-панели.
 
 **Структура проекта**  
-model_avto.h5: Обученная модель нейронной сети в формате HDF5.  
+model_avto.h5: Обученная модель нейронной сети в формате HDF5. https://drive.google.com/file/d/1O6Z4TFgsm0VWnBMHb7lP32HPf00g61UC/view?usp=drive_link
 script.py: Python-скрипт для предсказания марки автомобиля по изображению с использованием обученной модели.  
 label.txt: Текстовый файл, содержащий метки классов (Ferrari, Mercedes, Renault).  
 archive.zip: Архив, содержащий модель, скрипт, метки и тестовые изображения для загрузки на демо-панель.  
@@ -35,7 +35,7 @@ gdown (для скачивания модели)
 Или загрузи файлы (script.py, label.txt, 1.png–9.png, archive.zip) вручную через интерфейс Colab.  
 Скачивание модели
 Модель model_avto.h5 слишком большая для GitHub и размещена на Google Drive. Скачай её:  
-!gdown https://drive.google.com/uc?id=<file_id>  
+!gdown https://drive.google.com/uc?id=<1O6Z4TFgsm0VWnBMHb7lP32HPf00g61UC>  
 После скачивания файл model_avto.h5 появится в корне проекта.  
 Запуск предсказания
 Используй script.py для предсказания марки автомобиля:  
