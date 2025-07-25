@@ -35,7 +35,7 @@ gdown (для скачивания модели)
 Или загрузи файлы (script.py, label.txt, 1.png–9.png, archive.zip) вручную через интерфейс Colab.  
 Скачивание модели
 Модель model_avto.h5 слишком большая для GitHub и размещена на Google Drive. Скачай её:  
-!gdown https://drive.google.com/uc?id=<1O6Z4TFgsm0VWnBMHb7lP32HPf00g61UC>  
+!gdown [https://drive.google.com/uc?id=<1O6Z4TFgsm0VWnBMHb7lP32HPf00g61UC>](https://drive.google.com/file/d/1O6Z4TFgsm0VWnBMHb7lP32HPf00g61UC/view?usp=drive_link)  
 После скачивания файл model_avto.h5 появится в корне проекта.  
 Запуск предсказания
 Используй script.py для предсказания марки автомобиля:  
